@@ -1,53 +1,3 @@
-<!-- Dark Mode Styling -->
-<style>
-    :root{
-        --theem:#121212;
-    }
-  body {
-    background-color: var(--theem);
-    color: #e0e0e0;
-    font-family: Arial, sans-serif;
-  }
-  a {
-    color: #1e90ff;
-  }
-  code {
-    background-color: #1e1e1e;
-    color: #ffcc00;
-    padding: 2px 5px;
-    border-radius: 4px;
-  }
-  pre {
-    background-color: #1e1e1e;
-    padding: 10px;
-    border-radius: 5px;
-    overflow-x: auto;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  table thead tr {
-    background-color: var(--theem);
-    border-top: 1px solid #c6cbd1;
-}
-   table tbody tr{
-       border-top: 1px solid #616161;
-       background-color: var(--theem);
-
-  }
-  th, td {
-    border: 1px solid #333;
-    padding: 8px;
-    text-align: left;
-  }
-  th {
-    background-color: #222;
-  }
-
-</style>
-
-
 ### Jump to any Topic:
 
 | Topic    | Topic links                   |
@@ -143,5 +93,4 @@ accountId = 20; // ❌ Error: Assignment to constant variable.
 ```javascript
 Error: Assignment to constant variable.
 ```
-
 >**Use *`let`* insted of *`const`* if you know the value might change in futute**
