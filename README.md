@@ -1,7 +1,10 @@
 <!-- Dark Mode Styling -->
 <style>
+    :root{
+        --theem:#121212;
+    }
   body {
-    background-color: #121212;
+    background-color: var(--theem);
     color: #e0e0e0;
     font-family: Arial, sans-serif;
   }
@@ -24,6 +27,15 @@
     width: 100%;
     border-collapse: collapse;
   }
+  table thead tr {
+    background-color: var(--theem);
+    border-top: 1px solid #c6cbd1;
+}
+   table tbody tr{
+       border-top: 1px solid #616161;
+       background-color: var(--theem);
+
+  }
   th, td {
     border: 1px solid #333;
     padding: 8px;
@@ -32,6 +44,7 @@
   th {
     background-color: #222;
   }
+
 </style>
 
 
