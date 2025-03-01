@@ -1,3 +1,40 @@
+<!-- Dark Mode Styling -->
+<style>
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+  }
+  a {
+    color: #1e90ff;
+  }
+  code {
+    background-color: #1e1e1e;
+    color: #ffcc00;
+    padding: 2px 5px;
+    border-radius: 4px;
+  }
+  pre {
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #222;
+  }
+</style>
+
+
 ### Jump to any Topic:
 
 | Topic    | Topic links                   |
