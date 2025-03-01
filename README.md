@@ -4,6 +4,7 @@
 | -------- | ----------------------------- |
 | Variable | [Basic Variables](#variables) |
 | Data Type | [Basic of Data Tyle](#data-type) |
+| Memory | [Stack & Heap](#memory) |
 
 ---
 
@@ -146,9 +147,25 @@ const sym3 = Symbol("foo"); // Symbol
 
 const userAge; // Undefined
 const userPurches; // Undefined
-
-
-
 ```
+## Non-Primitive/Rererence Data Type
+>Non-primitive data types, also known as reference types, include objects, arrays, and functions. These types hold references to memory locations rather than the actual data values.
 
+### There are Two type of data 
+>`Array`, `object`, `function` are the non-primitive data type [mode details](https://262.ecma-international.org/5.1/#sec-11.4.3)
 
+## For some Example:
+```javascript
+// Array
+const heros = ["Batman", "Supperman", "Flash"];
+// Object
+let myObj = {
+    name: "Karan Swarnakar",
+    age: 20
+}
+// Function
+const myFunction = function(){
+    console.log("Hello I am a Function");
+}
+```
+<br>
