@@ -93,4 +93,8 @@ accountId = 20; // ❌ Error: Assignment to constant variable.
 ```javascript
 Error: Assignment to constant variable.
 ```
+<<<<<<< HEAD
 >**Use *`let`* insted of *`const`* if you know the value might change in futute**
+=======
+>**Use *`let`* insted of *`const`* if you know the value might change in futute**
+>>>>>>> f991bf3983c40bf97ebdd138e24533b7dd99d340
