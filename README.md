@@ -3,6 +3,7 @@
 | Topic    | Topic links                   |
 | -------- | ----------------------------- |
 | Variable | [Basic Variables](#variables) |
+| Data Type | [Basic of Data Tyle](#data-type) |
 
 ---
 
@@ -94,3 +95,60 @@ accountId = 20; // ❌ Error: Assignment to constant variable.
 Error: Assignment to constant variable.
 ```
 >**Use *`let`* insted of *`const`* if you know the value might change in futute**
+
+<br>
+
+
+# Data Type
+
+> "use strict"; Defines that JavaScript code should be executed in "strict mode". more  [mode details](https://www.w3schools.com/js/js_strict.asp)
+
+### There are Two type of data 
+1. `Primitive` data type
+2. `Reference` or `Non-primitive` data type 
+
+## Primitive Data Type
+>Primitive data types are basic data types that are built into a programming language. They are the fundamental building blocks of coding. 
+
+### There are 7 primitive date types
+| Shortcut | Meaning |
+|:--------:|:--------:|
+| 🟢 **N** | `Number` |
+| ⚪ **N** | `Null` |
+| 🔵 **B** | `Boolean` |
+| 🟡 **B** | `BigInt` |
+| 🔴 **S** | `String` |
+| 🟣 **S** | `Symbol` |
+| ⚫ **U** | `Undefined` |
+
+### For some Example:
+
+```javascript
+const score = 100; // Number
+const scoreValue = 100.3; // Decimal Number 
+
+const outsideTemp = null; // Null
+const forEmptyValue = null; // Null
+
+const isUserLog = true; // Boolean
+const isPMisaCook = false; // Boolean
+
+const longInt = 12345678910111213; // BigInt
+const numberAfterN = 12345678910111213n; // BigInt
+
+
+const yourName = "Karan Swarnakar";// String
+const youeEmail = "demo@gmail.com";// String
+
+const sym1 = Symbol(); // Symbol - Empty
+const sym2 = Symbol("foo"); // Symbol
+const sym3 = Symbol("foo"); // Symbol
+
+const userAge; // Undefined
+const userPurches; // Undefined
+
+
+
+```
+
+
