@@ -180,9 +180,11 @@ const myFunction = function(){
 
 > Memory is the brain’s ability to encode, store, and retrieve information, allowing us to learn, adapt, and recall past experiences.
 
+
 ## Types of Memory
 
-> Memory is categorized into two types:
+
+Memory is categorized into two types:
 ## Stack Memory(Primitive)  
   Used for storing fixed-size data like numbers, booleans, and references.
 
