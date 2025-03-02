@@ -1,9 +1,7 @@
-<title> JavaScript</title>
-
 ### Jump to any Topic:
 
 | Topic    | Topic links                   |
-|---|---|
+| -------- | ----------------------------- |
 | Variable | [Basic Variables](#variables) |
 | Data Type | [Basic of Data Tyle](#data-type) |
 | Memory | [Stack & Heap](#memory) |
@@ -114,14 +112,14 @@ Error: Assignment to constant variable.
 >Primitive data types are basic data types that are built into a programming language. They are the fundamental building blocks of coding. 
 
 ### There are 7 primitive date types
-| Shortcut | Meaning | 
-|:--------:|:----------:|
+| Shortcut | Meaning |
+|:--------:|:--------:|
 | 🟢 **N** | `Number` |
-| ⚪ **N** | `Null`   |
+| ⚪ **N** | `Null` |
 | 🔵 **B** | `Boolean` |
-| 🟡 **B** | `BigInt`  |
-| 🔴 **S** | `String`  |
-| 🟣 **S** | `Symbol`  |
+| 🟡 **B** | `BigInt` |
+| 🔴 **S** | `String` |
+| 🟣 **S** | `Symbol` |
 | ⚫ **U** | `Undefined` |
 
 ### For some Example:
@@ -176,15 +174,16 @@ const myFunction = function(){
 
 > Memory is the brain’s ability to encode, store, and retrieve information, allowing us to learn, adapt, and recall past experiences.
 
-
 ## Types of Memory
 
-
 Memory is categorized into two types:
+
 ## Stack Memory(Primitive)  
   Used for storing fixed-size data like numbers, booleans, and references.
 
 ![Stack!](https://imgs.search.brave.com/vJpKex5FwLd9-e7_tnxTJ2csglBZcuSTS8A25NRXS4A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZXMu/Y2xvdWRpbmFyeS5j/b20vZW5kamluL2lt/YWdlL3VwbG9hZC9m/X2F1dG8vcV84MC9h/c3NldHMvaW1hZ2Vz/L2Jsb2cvMjAyMi8w/Ni9zdGFjay1kYXRh/LXN0cnVjdHVyZS5w/bmc)
+
+- **Heap Memory**  
 
 
 ## Heap Memory(Non-Primitive) 
