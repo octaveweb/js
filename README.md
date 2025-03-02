@@ -1,3 +1,9 @@
+<style>
+  .blockquote{
+   border-left: 0.25em solid #0080ff
+  }
+</style> 
+
 ### Jump to any Topic:
 
 | Topic    | Topic links                   |
@@ -181,8 +187,6 @@ const myFunction = function(){
   Used for storing fixed-size data like numbers, booleans, and references.
 
 ![Stack!](https://imgs.search.brave.com/vJpKex5FwLd9-e7_tnxTJ2csglBZcuSTS8A25NRXS4A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZXMu/Y2xvdWRpbmFyeS5j/b20vZW5kamluL2lt/YWdlL3VwbG9hZC9m/X2F1dG8vcV84MC9h/c3NldHMvaW1hZ2Vz/L2Jsb2cvMjAyMi8w/Ni9zdGFjay1kYXRh/LXN0cnVjdHVyZS5w/bmc)
-
-- **Heap Memory**  
 
 
 ## Heap Memory(Non-Primitive) 
