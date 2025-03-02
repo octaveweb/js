@@ -3,7 +3,7 @@
 ### Jump to any Topic:
 
 | Topic    | Topic links                   |
-| -------- | ----------------------------- |
+|---|---|
 | Variable | [Basic Variables](#variables) |
 | Data Type | [Basic of Data Tyle](#data-type) |
 | Memory | [Stack & Heap](#memory) |
@@ -114,8 +114,8 @@ Error: Assignment to constant variable.
 >Primitive data types are basic data types that are built into a programming language. They are the fundamental building blocks of coding. 
 
 ### There are 7 primitive date types
-| Shortcut | Meaning   |
-|:--------:|----------|
+| Shortcut | Meaning | 
+|:--------:|:----------:|
 | 🟢 **N** | `Number` |
 | ⚪ **N** | `Null`   |
 | 🔵 **B** | `Boolean` |
