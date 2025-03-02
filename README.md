@@ -112,14 +112,14 @@ Error: Assignment to constant variable.
 >Primitive data types are basic data types that are built into a programming language. They are the fundamental building blocks of coding. 
 
 ### There are 7 primitive date types
-| Shortcut | Meaning |
-|:--------:|:--------:|
+| Shortcut | Meaning   |
+|:--------:|----------|
 | 🟢 **N** | `Number` |
-| ⚪ **N** | `Null` |
+| ⚪ **N** | `Null`   |
 | 🔵 **B** | `Boolean` |
-| 🟡 **B** | `BigInt` |
-| 🔴 **S** | `String` |
-| 🟣 **S** | `Symbol` |
+| 🟡 **B** | `BigInt`  |
+| 🔴 **S** | `String`  |
+| 🟣 **S** | `Symbol`  |
 | ⚫ **U** | `Undefined` |
 
 ### For some Example:
