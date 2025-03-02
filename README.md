@@ -1,9 +1,3 @@
-<style>
-  .blockquote{
-   border-left: 0.25em solid #0080ff
-  }
-</style> 
-
 ### Jump to any Topic:
 
 | Topic    | Topic links                   |
