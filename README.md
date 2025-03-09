@@ -4,7 +4,7 @@
 | --------- | -------------------------------- |
 | Variable  | [Basic Variables](#variables)    |
 | Data Type | [Basic of Data Tyle](#data-type) |
-| Memory    | [Stack & Heap](#memory)          |
+| Memory    | [Stack & Heap](Memory.md)        |
 
 ---
 
@@ -185,44 +185,59 @@ const myFunction = function () {
 };
 ```
 
-<br>
+# Data Conversion
 
-# Memory
+> Data conversion is a part of progaming let think data come from data base and it is in object format so we have to change it to our spacific version of data.
 
-> Memory is the brain’s ability to encode, store, and retrieve information, allowing us to learn, adapt, and recall past experiences.
-
-## Types of Memory
-
-Memory is categorized into two types:
-
-## Stack Memory (Primitive)
-
-Used for storing fixed-size data like numbers, booleans, and references.
-
-![Stack Memory](https://imgs.search.brave.com/vJpKex5FwLd9-e7_tnxTJ2csglBZcuSTS8A25NRXS4A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZXMu/Y2xvdWRpbmFyeS5j/b20vZW5kamluL2lt/YWdlL3VwbG9hZC9m/X2F1dG8vcV84MC9h/c3NldHMvaW1hZ2Vz/L2Jsb2cvMjAyMi8w/Ni9zdGFjay1kYXRh/LXN0cnVjdHVyZS5w/bmc)
-
-## Heap Memory (Non-Primitive)
-
-Used for storing dynamic data like objects, arrays, and functions.
-
-![Heap Memory](https://example.com/path/to/heap-memory-image.png)
-
-### Characteristics of Heap Memory:
-
-- **Dynamic Allocation**: Memory is allocated and deallocated at runtime.
-- **Flexible Size**: The size of the memory can grow and shrink as needed.
-- **Garbage Collection**: JavaScript automatically manages memory allocation and deallocation through garbage collection.
-
-### Example:
+### For Example:
 
 ```javascript
-let person = {
-  name: "John",
-  age: 30,
-};
+const score1 = 33;
+const score2 = "33sf";
+const score3 = null;
+const score4 = undefined;
 
-let numbers = [1, 2, 3, 4, 5];
+console.log(typeof score1);
+console.log(typeof score2);
+console.log(typeof score3);
+console.log(typeof score4);
+```
 
-function greet() {
-  console.log("Hello, World!");
-}
+### Output:
+
+```javascript
+Number
+String
+Object
+undefined
+```
+| Keyword   | Description |
+|-----------|-------------|
+| `Number()` | Converts a value to a number. |
+| `String()`   | A primitive data type representing text. Strings are immutable and String() use for converting data into string.  |
+| `Boolean()`  | Represents a logical value (`true` or `false`) and `1` means True, `0` means False.    |
+
+### For Example Number(): 
+```javascript
+const string_num = "7856321456";
+const string_num_cher = "33sf";
+
+const demo1= Number(string_num);
+const demo2 = Number(string_num_cher);
+
+console.log(demo1)
+console.log(demo2)
+```
+### Output: 
+```javasctipt
+7856321456
+NaN
+```
+
+### Summary: 
+```javascript
+"43" => 43 
+"43abc" => NaN
+true => 1 ; false =>0;
+```
+
