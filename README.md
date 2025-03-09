@@ -5,6 +5,7 @@
 | Variable  | [Basic Variables](#variables)    |
 | Data Type | [Basic of Data Tyle](#data-type) |
 | Memory    | [Stack & Heap](Memory.md)        |
+| Data Conversion    | [Basic data conversion](#data-conversion)        |
 
 ---
 
