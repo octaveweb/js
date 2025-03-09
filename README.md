@@ -212,8 +212,8 @@ String
 Object
 undefined
 ```
-| Keyword   | Description |
-|-----------|-------------|
+| Keyword | Description                                                                                                       |
+| ------- | ----------------------------------------------------------------------------------------------------------------- |
 | `Number()` | Converts a value to a number. |
 | `String()`   | A primitive data type representing text. Strings are immutable and String() use for converting data into string.  |
 | `Boolean()`  | Represents a logical value (`true` or `false`) and `1` means True, `0` means False.    |
