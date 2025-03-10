@@ -36,25 +36,24 @@ a:hover {
 /* 🔲 Code Blocks */
 /* 🌙 Dark Mode Background */
 pre {
-    background-color: #0d1117 !important;
-    border-radius: 6px !important;
-    padding: 6px !important;
-    border: 15px solid #161b22 !important;
-    overflow-x: auto !important;
-    box-shadow: 0px 0px 26px -2px #2c00ff30;
+    background: #161b22;
+    padding: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-size: 14px;
+    line-height: 1.4;
+    border: 1px solid #30363d;
 }
-pre:hover {
-    box-shadow: 0px 0px 26px 1px #2c00ff30;
-  transition: all .7s cubic-bezier(.7, 0, .3, 1);
-}
-/* 🖥️ Inline Code Styling */
 code {
-    background-color: #161b22 !important;
-    color: #c9d1d9 !important;
-    font-family: 'Fira Code', monospace !important;
-    padding: 4px 6px !important;
-    border-radius: 4px !important;
+    background: #161b22;
+    color: #e6edf3;
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
 }
+
 
 /* 🎨 Syntax Highlighting */
 .hljs {
