@@ -1,5 +1,5 @@
 
-# Memory
+
 
 > Memory is the brain’s ability to encode, store, and retrieve information, allowing us to learn, adapt, and recall past experiences.
 

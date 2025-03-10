@@ -1,6 +1,4 @@
 
-# Variables
-
 > Variable is a contener that stores data and save it to memoey location.
 
 #### There are 3 types of variable's in JavaScript `var`, `let`, `const`
