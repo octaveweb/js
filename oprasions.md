@@ -1,11 +1,12 @@
 # Operation
 > Operation like +,-,*,/,**,% for example
 
-| Symbol | Works | 
-|--------|-------|
-|`+`,`-`,`*`,`/`| Use to basic arthmatic oprations |
-|`**`| Use to put value like Power fomrmat |
-|`%`| Use for get remender |
+| Symbol  | Works                                      |
+|---------|--------------------------------------------|
+| `+`, `-`, `*`, `/` | Used for basic arithmetic operations |
+| `**`     | Used to represent exponentiation (power)  |
+| `%`      | Used to get the remainder                |
+
 ### Example
 ```javascript
 
