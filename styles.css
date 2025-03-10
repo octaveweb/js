@@ -33,43 +33,28 @@ a:hover {
 
 /* 🔲 Code Blocks */
 /* 🌙 Override Code Block Background */
-.hljs {
+/* 🌙 Force Dark Mode for Code Blocks */
+pre, code, .highlight, .hljs {
     background-color: #0d1117 !important;
     color: #c9d1d9 !important;
-    border-radius: 6px;
-    padding: 12px;
-    font-family: 'Fira Code', monospace;
-}
-
-/* 🌟 Ensure Code Blocks Are Readable */
-pre {
-    background: #0d1117 !important;
+    font-family: 'Fira Code', monospace !important;
+    border-radius: 6px !important;
+    padding: 12px !important;
     border: 1px solid #30363d !important;
-    border-radius: 6px;
-    padding: 12px;
-    overflow-x: auto;
+    overflow-x: auto !important;
 }
 
-/* 🎨 Override Inline Code */
-code {
-    background: #161b22;
-    color: #e6edf3;
-    padding: 4px 6px;
-    border-radius: 4px;
-    font-size: 14px;
-}
-
-/* 🔥 Keep Syntax Colors for Keywords, Strings, etc. */
-.hljs-keyword { color: #ff7b72; }
-.hljs-string { color: #a5d6ff; }
-.hljs-comment { color: #8b949e; font-style: italic; }
-.hljs-function { color: #d2a8ff; }
-.hljs-variable { color: #ffa657; }
-.hljs-number { color: #f2cc60; }
-.hljs-type { color: #ffb870; }
-.hljs-operator { color: #79c0ff; }
-.hljs-builtin { color: #ffa657; }
-.hljs-meta { color: #c9d1d9; }
+/* 🌟 Syntax Highlighting Colors */
+.hljs-keyword { color: #ff7b72 !important; } /* Keywords */
+.hljs-string { color: #a5d6ff !important; } /* Strings */
+.hljs-comment { color: #8b949e !important; font-style: italic !important; } /* Comments */
+.hljs-function { color: #d2a8ff !important; } /* Functions */
+.hljs-variable { color: #ffa657 !important; } /* Variables */
+.hljs-number { color: #f2cc60 !important; } /* Numbers */
+.hljs-type { color: #ffb870 !important; } /* Data Types */
+.hljs-operator { color: #79c0ff !important; } /* Operators */
+.hljs-builtin { color: #ffa657 !important; } /* Built-in Objects */
+.hljs-meta { color: #c9d1d9 !important; } /* Meta Info */
 
 
 /* 📌 Blockquotes */
