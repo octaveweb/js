@@ -32,23 +32,45 @@ a:hover {
 }
 
 /* 🔲 Code Blocks */
-pre {
-    background: #161b22;
-    padding: 15px;
-    border-radius: 8px;
-    overflow-x: auto;
-    font-size: 14px;
-    line-height: 1.4;
-    border: 1px solid #30363d;
+/* 🌙 Override Code Block Background */
+.hljs {
+    background-color: #0d1117 !important;
+    color: #c9d1d9 !important;
+    border-radius: 6px;
+    padding: 12px;
+    font-family: 'Fira Code', monospace;
 }
+
+/* 🌟 Ensure Code Blocks Are Readable */
+pre {
+    background: #0d1117 !important;
+    border: 1px solid #30363d !important;
+    border-radius: 6px;
+    padding: 12px;
+    overflow-x: auto;
+}
+
+/* 🎨 Override Inline Code */
 code {
     background: #161b22;
     color: #e6edf3;
     padding: 4px 6px;
     border-radius: 4px;
-    font-family: 'Courier New', monospace;
     font-size: 14px;
 }
+
+/* 🔥 Keep Syntax Colors for Keywords, Strings, etc. */
+.hljs-keyword { color: #ff7b72; }
+.hljs-string { color: #a5d6ff; }
+.hljs-comment { color: #8b949e; font-style: italic; }
+.hljs-function { color: #d2a8ff; }
+.hljs-variable { color: #ffa657; }
+.hljs-number { color: #f2cc60; }
+.hljs-type { color: #ffb870; }
+.hljs-operator { color: #79c0ff; }
+.hljs-builtin { color: #ffa657; }
+.hljs-meta { color: #c9d1d9; }
+
 
 /* 📌 Blockquotes */
 blockquote {
@@ -117,19 +139,7 @@ summary {
     font-weight: bold;
     color: #58a6ff;
 }
-.hljs{
-    background-color: #0d1117;
-}
 
-.hljs-keyword, .hljs-literal, .hljs-name, .hljs-symbol {
-    color: #19fb00;
-}
-.hljs-string, .hljs-number, .hljs-variable, .hljs-template-variable, .hljs-link, .hljs-selector-attr, .hljs-selector-pseudo {
-    color: #ff0000;
-}
-.hljs-comment, .hljs-quote, .hljs-deletion {
-    color: #ff8400;
-}
 /* 🖥️ Responsive Design */
 @media (max-width: 768px) {
     body {
