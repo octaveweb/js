@@ -1,4 +1,4 @@
-/* 🌙 Global Dark Mode */
+/* 🌙 Global Styles */
 body {
     background-color: #0d1117;
     color: #c9d1d9;
@@ -16,6 +16,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 20px;
 }
 
+/* 📜 Paragraphs */
+p {
+    margin-bottom: 15px;
+}
+
 /* 🔗 Links */
 a {
     color: #58a6ff;
@@ -26,7 +31,26 @@ a:hover {
     color: #1f6feb;
 }
 
-/* 📜 Blockquotes */
+/* 🔲 Code Blocks */
+pre {
+    background: #161b22;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-size: 14px;
+    line-height: 1.4;
+    border: 1px solid #30363d;
+}
+code {
+    background: #161b22;
+    color: #e6edf3;
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+}
+
+/* 📌 Blockquotes */
 blockquote {
     background: #161b22;
     border-left: 4px solid #58a6ff;
@@ -35,6 +59,9 @@ blockquote {
     color: #8b949e;
     font-style: italic;
 }
+blockquote p {
+    margin: 0;
+}
 
 /* 📋 Lists */
 ul, ol {
@@ -42,6 +69,11 @@ ul, ol {
 }
 li {
     margin-bottom: 5px;
+}
+
+/* ✅ Task List (GitHub Only) */
+input[type="checkbox"] {
+    accent-color: #58a6ff;
 }
 
 /* 📊 Tables */
@@ -69,10 +101,29 @@ hr {
     margin: 20px 0;
 }
 
-/* 🖥️ Responsive */
+/* 🏷️ Footnotes */
+sup {
+    font-size: 12px;
+}
+
+/* 🎭 Collapsible Sections */
+details {
+    background: #161b22;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+summary {
+    font-weight: bold;
+    color: #58a6ff;
+}
+
+/* 🖥️ Responsive Design */
 @media (max-width: 768px) {
     body {
         padding: 15px;
     }
+    pre {
+        font-size: 13px;
+    }
 }
-
