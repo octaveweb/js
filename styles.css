@@ -32,29 +32,76 @@ a:hover {
 }
 
 /* 🔲 Code Blocks */
-/* 🌙 Override Code Block Background */
-/* 🌙 Force Dark Mode for Code Blocks */
-pre, code, .highlight, .hljs {
+/* 🌙 Dark Mode Background */
+pre {
     background-color: #0d1117 !important;
-    color: #c9d1d9 !important;
-    font-family: 'Fira Code', monospace !important;
     border-radius: 6px !important;
     padding: 12px !important;
     border: 1px solid #30363d !important;
     overflow-x: auto !important;
 }
 
-/* 🌟 Syntax Highlighting Colors */
-.hljs-keyword { color: #ff7b72 !important; } /* Keywords */
-.hljs-string { color: #a5d6ff !important; } /* Strings */
-.hljs-comment { color: #8b949e !important; font-style: italic !important; } /* Comments */
-.hljs-function { color: #d2a8ff !important; } /* Functions */
-.hljs-variable { color: #ffa657 !important; } /* Variables */
-.hljs-number { color: #f2cc60 !important; } /* Numbers */
-.hljs-type { color: #ffb870 !important; } /* Data Types */
-.hljs-operator { color: #79c0ff !important; } /* Operators */
-.hljs-builtin { color: #ffa657 !important; } /* Built-in Objects */
-.hljs-meta { color: #c9d1d9 !important; } /* Meta Info */
+/* 🖥️ Inline Code Styling */
+code {
+    background-color: #161b22 !important;
+    color: #c9d1d9 !important;
+    font-family: 'Fira Code', monospace !important;
+    padding: 4px 6px !important;
+    border-radius: 4px !important;
+}
+
+/* 🎨 Syntax Highlighting */
+.hljs {
+    background-color: #0d1117 !important;
+    color: #c9d1d9 !important;
+    font-family: 'Fira Code', monospace !important;
+}
+
+/* 🔹 Keywords (const, let, function) */
+.hljs-keyword {
+    color: #ff7b72 !important;
+}
+
+/* 🟢 Strings */
+.hljs-string {
+    color: #a5d6ff !important;
+}
+
+/* 🔸 Numbers */
+.hljs-number {
+    color: #f2cc60 !important;
+}
+
+/* 💬 Comments */
+.hljs-comment {
+    color: #8b949e !important;
+    font-style: italic !important;
+}
+
+/* 🟠 Function Names */
+.hljs-function {
+    color: #d2a8ff !important;
+}
+
+/* 🔵 Variables */
+.hljs-variable {
+    color: #ffa657 !important;
+}
+
+/* 🔺 Operators (+, -, *, =) */
+.hljs-operator {
+    color: #79c0ff !important;
+}
+
+/* 🔹 Built-in Functions (console, Math) */
+.hljs-builtin {
+    color: #ffa657 !important;
+}
+
+/* 🏷️ Meta Information */
+.hljs-meta {
+    color: #c9d1d9 !important;
+}
 
 
 /* 📌 Blockquotes */
