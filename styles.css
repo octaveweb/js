@@ -76,14 +76,3 @@ hr {
     }
 }
 
-/* 🚨 Let GitHub Handle Code Styling - Remove Extra Styles */
-pre, code, .highlight {
-    background: none !important;
-    border: none !important;
-    color: inherit !important;
-    padding: 0 !important;
-    font-family: inherit !important;
-}
-
-/* 🛑 Remove Box Shadows & Borders for Code */
-
