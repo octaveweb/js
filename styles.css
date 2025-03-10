@@ -117,7 +117,19 @@ summary {
     font-weight: bold;
     color: #58a6ff;
 }
+.hljs{
+    background-color: #0d1117;
+}
 
+.hljs-keyword, .hljs-literal, .hljs-name, .hljs-symbol {
+    color: #19fb00;
+}
+.hljs-string, .hljs-number, .hljs-variable, .hljs-template-variable, .hljs-link, .hljs-selector-attr, .hljs-selector-pseudo {
+    color: #ff0000;
+}
+.hljs-comment, .hljs-quote, .hljs-deletion {
+    color: #ff8400;
+}
 /* 🖥️ Responsive Design */
 @media (max-width: 768px) {
     body {
