@@ -86,6 +86,4 @@ pre, code, .highlight {
 }
 
 /* 🛑 Remove Box Shadows & Borders for Code */
-pre {
-    box-shadow: none !important;
-}
+
