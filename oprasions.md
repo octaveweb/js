@@ -1,5 +1,5 @@
-
-> Operation like +,-,*,/,**,% for example
+# Operation
+> Operations like +,-,*,/,**,% for example
 
 | Symbol  | Works                                      |
 |---------|--------------------------------------------|

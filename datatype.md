@@ -1,4 +1,4 @@
-
+# Datatype
 > "use strict"; Defines that JavaScript code should be executed in "strict mode". more [mode details](https://www.w3schools.com/js/js_strict.asp)
 
 ### There are Two type of data
